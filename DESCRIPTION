@@ -4,6 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person(given = "Richard",
            family = "Janzen",
+           role = c("aut", "cre"),
            email = "richard.janzen@studserv.uni-leipzig.de")
 Description: This package provides templates for the Momentum Dashboard of the Universität Leipzig.
 License: use_gpl3_license()
