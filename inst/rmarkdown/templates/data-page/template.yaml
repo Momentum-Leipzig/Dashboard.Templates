@@ -1,0 +1,4 @@
+name: data page
+description: >
+   This template is used for data-driven pages. It should work as a global structure for graphs and such.
+create_dir: FALSE
