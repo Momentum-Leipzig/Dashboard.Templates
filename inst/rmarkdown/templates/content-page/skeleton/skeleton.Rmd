@@ -14,7 +14,7 @@ output: html_document
 
 .grid-container {
   display: grid;
-  grid-template-columns: 395px 783px;
+  grid-template-columns: 392px 783px;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
