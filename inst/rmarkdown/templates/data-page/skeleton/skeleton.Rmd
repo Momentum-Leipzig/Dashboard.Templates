@@ -12,6 +12,14 @@ output:
 #bibliography: references.bib
 #csl: apa.csl
 ---
+<style type="text/css">
+  a {
+    color: #3182bd;
+    background-color: transparent;
+    text-decoration: none;
+  }
+</style>
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)

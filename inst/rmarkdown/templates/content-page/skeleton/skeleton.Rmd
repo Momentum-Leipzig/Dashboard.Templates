@@ -3,30 +3,43 @@ title: "Page Title"
 output: html_document
 ---
 <style type="text/css">
-.title {
-  display: none;
-}
-.main-container {
-  max-width: 1175px !important;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .title {
+    display: none;
+  }
+  
+  .main-container {
+    max-width: 1140px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 392px 783px;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-}
+  .grid-container {
+    display: grid;
+    grid-template-columns: 380px 740px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+  }
 
-.grid-pic {
+  .grid-pic {
+    text-align: left;
+  }
+
+  .grid-text {
   text-align: left;
-}
+  }
+  
+  a {
+    color: #3182bd;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
-.grid-text {
-  text-align: left;
-}
-
+  .row{
+  margin-left: 0px;
+  margin-right: 0px;
+  }
 
 </style>
 
@@ -41,6 +54,6 @@ output: html_document
 
   <div class ="grid-text">
   Place text here. <br>
-  .main container defines the width of the page. The default here are 1175px, so that the left border aligns well with the "Momentum" button. Width and amount of columns in this grid can be adjusted by changing and adding the arguments of "grid-template-columns". Right now, it is set to a smaller column on the left (~4/12ths of the width) and one big column on the right (~8/12ths). For more information on grid arguments, refer to <a href ="https://www.w3schools.com/css/css_grid.asp"> this website </a>.
+  .main container defines the width of the page. The default here are 1140px, so that the left border aligns well with the "Momentum" button. Width and amount of columns in this grid can be adjusted by changing and adding the arguments of "grid-template-columns". Right now, it is set to a smaller column on the left (= 4/12ths of the width) and one big column on the right (= 8/12ths-20px for the space between the pictures and the text. See: grind-column-gap: 20px;). For more information on grid arguments, refer to <a href ="https://www.w3schools.com/css/css_grid.asp"> this website </a>.
   </div>
 </div>
